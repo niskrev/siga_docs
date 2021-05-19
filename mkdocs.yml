@@ -1,5 +1,7 @@
 site_name: Spectral decomposition
-site_url: https://niskrev.github.io/siga
+site_url: https://niskrev.github.io/siga_docs
+repo_name: siga_docs
+repo_url: https://github.com/niskrev/siga_docs
 
 extra:
   arxiv_id: 'NONE'
