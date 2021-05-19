@@ -1,0 +1,54 @@
+site_name: Spectral decomposition
+site_url: https://niskrev.github.io/siga
+
+extra:
+  arxiv_id: 'NONE'
+  arxiv_link: 'https://bportugal.pt'
+  github_link: 'https://github.com/niskrev'
+
+
+nav:
+    - Overview: index.md
+    - Uribe (2021) model:
+        - Overview: results/uribe/uribe.md
+        - Information decompositions: results/uribe/ID.md
+        - Information complementarity: results/uribe/IC.md
+        - Variance decomositions: results/uribe/VD.md
+    - JPT (2011) model:
+        - Overview: results/jpt/jpt.md
+        - Information decompositions: results/jpt/ID.md
+        - Information complementarity: results/jpt/IC.md
+        - Variance decomositions: results/jpt/VD.md
+
+theme:
+    name: bootstrap4
+#theme:
+#    name: null
+#    custom_dir: 'theme/'
+#    static_templates:
+#      - 404.html
+
+#theme:
+#  name: material
+#  palette:
+#    - media: "(prefers-color-scheme: light)"
+#      scheme: default
+#      toggle:
+#        icon: material/toggle-switch-off-outline
+#        name: Switch to dark mode
+#    - media: "(prefers-color-scheme: dark)"
+#      scheme: slate
+#      toggle:
+#        icon: material/toggle-switch
+#        name: Switch to light mode      
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+use_directory_urls: false
