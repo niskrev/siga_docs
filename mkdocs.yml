@@ -21,6 +21,7 @@ nav:
         - Information decompositions: results/jpt/ID.md
         - Information complementarity: results/jpt/IC.md
         - Variance decomositions: results/jpt/VD.md
+    - About: '../pages/papers'
 
 theme:
     name: bootstrap4
